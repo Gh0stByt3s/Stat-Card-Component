@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: .9375rem;
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 1em;
+  font-family: Inter, sans-serif;
+  font-size: 3.5em;
+  font-weight: 700;
+}
+
+h1 .bold-heading {
+  color: #aa5cdb;
+}
+
+p {
+  color: #ffffffbf;
+  padding-right: 1em;
+  font-family: Lexend Deca, sans-serif;
+  font-size: 1.4em;
+  line-height: 1.5;
+}
+
+.card__stat-box {
+  font-family: Inter, sans-serif;
+}
+
+.card__stat-box .bold-text {
+  color: #fff;
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+.card__stat-box .bold-text + p {
+  color: #fff9;
+  letter-spacing: 2px;
+  font-size: 1.1em;
+}
+
+body {
+  background-color: #090b1a;
+}
+
+article {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.card {
+  width: 90rem;
+  border-radius: 10px;
+  display: flex;
+}
+
+.card__text-box {
+  width: 50%;
+  color: #ffffffbf;
+  background-color: #1b1938;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 5em;
+  display: flex;
+}
+
+.card__text-box .card__stat-box {
+  gap: 4em;
+  padding-top: 4em;
+  display: flex;
+}
+
+.card__text-box .card__stat-box .card-stat {
+  flex-direction: column;
+  gap: .5em;
+  display: flex;
+}
+
+.card__image {
+  background-color: #aa5cdb;
+  flex: 0 0 50%;
+}
+
+.card__image img {
+  width: 100%;
+  opacity: .4;
+  border-radius: 0 10px 10px 0;
+  display: block;
+}
+
+@media only screen and (max-width: 400px) {
+  .card {
+    width: 375px;
+    border-radius: 20px;
+    flex-direction: column;
+    font-size: 10px;
+    display: flex;
+  }
+
+  .card__image {
+    border-radius: 10px 10px 0 0;
+    flex: 0 0 40%;
+    order: -1;
+    overflow: hidden;
+  }
+
+  .card__text-box {
+    width: auto;
+    text-align: center;
+    align-items: center;
+    padding: 4.5em;
+  }
+
+  .card__text-box h1 {
+    font-size: 1.8rem;
+  }
+
+  .card__text-box p {
+    font-size: 1rem;
+    line-height: 1.9;
+  }
+
+  .card .card__stat-box {
+    flex-direction: column;
+    display: flex;
+  }
+}
+
+.attribution {
+  text-align: center;
+  font-size: 11px;
+  position: absolute;
+  bottom: 0;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+/*# sourceMappingURL=index.07a25069.css.map */

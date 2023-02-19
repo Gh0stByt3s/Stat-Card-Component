@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+    <link rel="stylesheet" href="Sass/style.scss" />
+  </head>
+  <body>
+    <article role="article">
+      <div class="card">
+        <div role="contentinfo" class="card__text-box">
+          <h1>
+            Get
+            <span class="bold-heading">insights</span> that help your business
+            grow.
+          </h1>
+
+          <p>
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+
+          <div class="card__stat-box" role="contentinfo">
+            <div class="card-stat">
+              <span class="bold-text">10k+</span>
+              <p>COMPANIES</p>
+            </div>
+            <div class="card-stat">
+              <span class="bold-text">314</span>
+              <p>TEMPLATES</p>
+            </div>
+            <div class="card-stat">
+              <span class="bold-text">12m+</span>
+              <p>QUERIES</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- The image changes to the mobile image when the width is 374px and below -->
+
+        <picture role="img" class="card__image">
+          <source
+            srcset="./images/image-header-mobile.jpg"
+            media="(width:374px)"
+          />
+          <img
+            src="./images/image-header-desktop.jpg"
+            alt="Group of people working on computers"
+          />
+        </picture>
+      </div>
+    </article>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+{"mappings":"AAAA;;;;;AAIA","sources":["src/style.scss"],"sourcesContent":[".attribution {\n  font-size: 11px;\n  text-align: center;\n}\n.attribution a {\n  color: hsl(228, 45%, 44%);\n}\n"],"names":[],"version":3,"file":"index.b2d9cf43.css.map","sourceRoot":"/__parcel_source_root/"}
